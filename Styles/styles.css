@@ -1,0 +1,585 @@
+body{
+    overflow-x: hidden; 
+}
+
+
+.logo{
+    height:50px;
+    width:140px;
+    margin-top:30px;  
+    margin-left:90px;
+    display:inline-block;   
+    
+}
+.arrow{
+    height:20px;
+    width:20px;
+   position:absolute;
+   top:500px;
+   right:10px;
+   position:fixed;
+}
+.navmain{
+    margin-top:0;
+    width:100%; 
+    height:100px;
+    
+}
+.home{
+    display:inline-block;  /* 3 values Inline, Block Inline-block Inline and width can be changed   */   
+    margin-top:5px; 
+    margin-left:250px;
+    position:relative;   /*2 type of position- Absolute Relative */
+    bottom:17px;       /* This is value of spacing  17*/ 
+    font-size:18px;
+    color:rgb(65, 68, 123); 
+    font-family:sans-serif;
+
+}
+.home:hover{
+    color:rgb(183, 40, 81); 
+}
+
+.services{
+    display:inline-block;
+    font-size:18px;
+    margin-top:5px;
+    margin-left:27px;
+    position:relative;
+    bottom:17px;
+    color:rgb(65, 68, 123);
+    font-family:sans-serif;
+}
+.services:hover{
+    color:rgb(183, 40, 81);
+}
+.price{
+    display:inline-block;
+    font-size:18px;
+    margin-top:5px;
+    margin-left:27px;
+    position:relative;
+    bottom:17px;
+    color:rgb(65, 68, 123);
+    font-family:sans-serif;
+}
+.price:hover{
+    color:rgb(183, 40, 81);
+}
+.abtus{
+    display:inline-block;
+    font-size:18px;
+    margin-top:5px;
+    margin-left:27px;
+    position:relative;
+    bottom:17px;
+    color:rgb(65, 68, 123);
+    font-family:sans-serif;
+}
+.abtus:hover{
+    color:rgb(183, 40, 81);
+}
+.ourclient{
+    display:inline-block;
+    font-size:18px;
+    margin-top:5px;
+    margin-left:27px;
+    position:relative;
+    bottom:17px;
+    color:rgb(65, 68, 123);
+    font-family:sans-serif;
+}
+.ourclient:hover{
+    color:rgb(183, 40, 81);
+}
+
+.whats{
+    height:50px;
+    width:55px;
+    position:relative;
+    bottom:0px;    
+    left:25px;
+} 
+.person{
+    height:80px;
+    width:80px;
+    position:relative;
+    left:100px;
+    top:1px;
+}
+.banner{
+    
+    width:50%; 
+  
+    display:inline-block;
+    
+
+}
+.banner1{
+    width:100%;
+    height:500px;
+    
+}
+
+.title{
+    display:inline-block;
+    width:50%;
+    position:absolute;   
+    top:200px;   /* top:200px;*/
+ 
+}
+
+.head{
+    font-family: 'Poppins', sans-serif;
+    font-size:45px;
+    color:rgb(183, 40, 81);
+   
+}
+.graded{
+    color:rgb(65, 68, 123);
+     
+}
+.para{
+    font-size:23px;
+    font-family:sans-serif;
+    
+}
+.button{
+     
+    height:50px;
+    width:400px;
+    border:2px rgb(65, 68, 123) solid; /* Using SHorthand */
+    background-color:white;
+    font-size:15px;
+    font-family: 'Outfit', sans-serif;
+    
+}
+.button:hover{ 
+    background-color:rgb(183, 40, 81);
+    font-size:19px;
+   
+} 
+.features{
+     text-align:center; 
+     font-family: 'Comforter Brush', cursive;
+     font-size:60px;
+     color:rgb(183, 40, 81);
+}
+.custimg{
+    width:160px;
+    height:160px;/* 160 */
+    margin-left:300px;
+    margin-top:70px;
+    float:left;   /* Brings any element to left of any other elememt   */
+    margin-bottom: 10px;
+}
+.skill1{
+     width:600px;
+     height:200px;
+     margin-left:400px;
+     
+}
+.custtitle{
+    position:relative;
+    top:50px;
+    left:30px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(183, 40, 81);
+}
+
+.custpara{
+    font-size:20px;
+    position:relative;
+    top:70px;
+    left:30px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(65, 68, 123);  
+ 
+}
+
+.money{
+  width:500px;
+  
+  height:100px;
+  margin-left:260px;
+  margin-top:110px;
+}
+.moneytitle{
+    position:absolute;
+    top:1000px;
+    right:480px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(183, 40, 81);
+}
+.moneyimg{
+   position:absolute;
+   top:1000px;
+   right:250px;
+}
+.moneypara{
+    font-size:20px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(65, 68, 123);
+}
+.hrule{
+    border:dotted #11999E  6px; 
+    border-bottom:none; 
+    width: 5%;
+    margin-top:100px;
+    margin-bottom:60px;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+.pricemain{
+    text-align:center;
+    font-family: 'Comforter Brush', cursive;
+    font-size:50px; 
+    
+}
+.clientdiv{
+    width:100%;
+    height:550px;
+   
+}
+.clients{
+    text-align:center;
+    font-family: 'Comforter Brush', cursive;
+    font-size:50px;
+    color:rgb(65, 68, 123);
+   
+}
+.pepsilogo{
+    width:20%;
+    position:absolute;
+    top:1445px;
+}
+.cocacola{
+    width:18%;;
+    height:90px;
+    position:absolute;
+    left:490px;
+    top:1470px;
+    
+}
+.reebok{
+    width:18%;
+    height:80px;
+    position:absolute;
+    top:1470px;
+    right:10px;
+}
+.dmart{
+   height:170px;
+   width:27%;
+   position:absolute;
+   top:1650px;
+}
+.myntra {
+    height:130px;
+    width:27%;
+    position:absolute;
+    top:1680px;
+    left:480px;
+}
+.micromax{
+    height:180px;
+    width:27%;
+    position:absolute;
+    top:1660px;
+    right:10px;
+}
+.abtusdiv{
+    margin-top:10px;
+    border:solid 1px white; 
+    height:1000px; 
+    width:620px;
+}
+.hrule1{
+    border:dotted #11999E 6px; 
+    border-bottom: none;
+    width:5%;
+    margin-top:0px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.abtushead{
+    text-align:center;
+    font-family: 'Comforter Brush', cursive;
+    font-size:50px;
+    
+}
+.headingtop{
+    font-size:56px;
+    color:rgb(65, 68, 123);
+    display: inline-block;
+    margin-top:100px;
+    font-family:"DM Sans", sans-serif
+    
+    
+}
+.head2{
+    color:rgb(183, 40, 81);
+}
+.market{
+    display:inline-block;
+    position:absolute;
+    top:2000px;
+    right:20px;
+}
+.abtusimg{
+    margin-top:60px;
+    width:50%;
+    height:400px;
+    position:absolute;
+    top:2500px;
+}
+.aboutus{
+    border-left:blue solid 6px;
+    font-size:30px;
+    position:absolute;
+    top:2550px;
+    right:500px;
+    font-family: 'Outfit', sans-serif;
+}
+.paraabts{
+    display:inline-block;
+    position:absolute;
+    top:2630px;
+    left:600px;
+    width:45%;
+    font-family:'Roboto', sans-serif;
+    font-size:20px; 
+}
+.cont{
+    font-family: 'Comforter Brush', cursive;
+    text-align:center;
+    color:rgb(183, 40, 81);
+    font-size:50px;
+}
+.contpara{
+    width:99%;
+    margin-top:50px;
+    margin-left:10px;
+    font-family:'Roboto', sans-serif;
+    font-size:23px;
+    color:rgb(65, 68, 123);
+}
+.contactdiv{
+    border:1px solid blue;
+    margin-left:20px;
+    width:32%;
+    height:610px;
+    background-color:rgb(57, 60, 152);    /* Both colors are good */
+    /*background-color:rgb(183, 40, 81);*/
+    border-radius:15px;
+    display:inline-block;
+   
+}
+.req{
+    margin-left:60px;
+    margin-top:50px;
+    color:white;
+    font-family:"DM Sans", sans-serif
+    
+}
+.inp{
+    height:25px;
+    width:70%;
+    position:relative;
+    top:30px;
+    left:90px;
+    border-radius:10px;
+    color:white;
+    border:2px white solid;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    background-color:rgb(57, 60, 152);
+}
+
+.nameinput{
+    position:absolute;
+    top:3605px;
+    font-size:25px;
+    left:40px;
+    color:white;
+}
+
+
+
+
+::placeholder{
+    color:white;
+    text-align:center;
+    font-size:10px;
+}
+.messtitle{
+    position:absolute;
+    top:3830px;
+    font-size:25px;
+    left:35px;
+    color:white;
+}
+.textbox{
+    height:130px;
+    width:60%;
+    position:relative;
+    top:50px;
+    left:120px;
+    border-radius:10px;
+    color:white;
+    border:2px white solid;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    background-color:rgb(57, 60, 152);
+}
+.sub{
+    position:relative;
+    top:100px;
+    left:70px;
+    width:250px;
+    height:35px;
+    font-size:20px;
+    background-color:white;
+}
+ .errorjs{
+
+    width:300px;
+    height:40px;
+    color:red;
+    margin-top:10px;
+    position:absolute;
+    top:3665px;
+    left:400px;
+    font-size:20px;
+}
+.contmail{
+    
+    width:600px;
+    height:200px;
+    display:inline-block;
+    margin-left:130px;
+    position:absolute;
+    top:3600px;
+    background-color:#F8F8FF;
+    border:7px solid #F8F8FF;;
+}
+.mail2{
+    height:50px;
+    width:50px;
+    margin-top:20px;
+    margin-left:10px;
+    display:inline-block;
+}
+.mail2head{
+    font-size:35px;
+   position:absolute;
+   top:0px;
+    left:90px;
+    color:rgb(65, 68, 123);
+    font-family: 'Outfit', sans-serif;
+}
+.mail2para{
+    font-size:20px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(65, 68, 123);
+}
+.mail2f{
+    font-size:25px;
+    
+    color:rgb(183, 40, 81);
+}
+.calldiv{
+    border:7px solid #F8F8FF;
+    display:inline-block;
+    width:600px;
+    height:200px;
+    margin-left:130px;
+    position:absolute;
+    top:3900px;
+    background-color:#F8F8FF;
+}
+.callimg{
+     width:60px;
+     height:60px;
+     margin-top:20px;
+     margin-left:10px;
+}
+.callhead{
+    position: absolute;
+    top:0px;
+    left:95px;
+    font-size:35px;
+    color:rgb(65, 68, 123);
+    font-family: 'Outfit', sans-serif;
+}
+.callpara{
+    font-size:20px;
+    font-family: 'Outfit', sans-serif;
+    color:rgb(65, 68, 123);
+    margin-left:10px;
+}
+.callf{
+    font-size:25px;
+    margin-left:10px;
+    color:rgb(183, 40, 81);
+}
+.robs{
+    border:2px solid blue;
+    width:30%;
+    position:absolute;
+    top:3650px;
+}
+.phonenumber{
+    font-size:25px;
+    position:absolute;
+    top:3680px;
+    left:35px;
+    color:white;
+}
+.innumber{
+    margin-top:72px;
+    margin-left:92px;
+    height:25px;
+    width:70%;
+    border-radius:10px;
+    color:white;
+    border:2px white solid;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    background-color:rgb(57, 60, 152); 
+}
+.emaillabel{
+    font-size:25px;
+    position:absolute;
+    top:3755px;
+    left:35px;
+    color:white;
+}
+.emailinp{
+    height:25px;
+    width:70%;
+    margin-left:90px;
+    margin-top:44px;
+    border-radius:10px;
+    color:white;
+    border:2px white solid;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    background-color:rgb(57, 60, 152); 
+}
+
+.cntus{
+    height:50px;
+    width:130px;
+   position:absolute;
+   top:30px;  
+   right:0px;  
+   font-size:18px;
+   background-color:rgb(183, 40, 81);
+   color:white;
+   border:0;
+   font-family: 'Roboto', sans-serif;
+} 
+
+
+
+

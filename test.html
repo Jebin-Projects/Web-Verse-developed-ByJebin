@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <script>
+            function validateMail(){
+  var mail = document.getElementById("srchospital").value;
+  var regx = /^([a-zA-Z0-9\.]+)@([a-zA-Z0-9])+([a-z]+)(.[a-z]+)?$/
+
+  if(regx.srchospital(mail)){
+      alert("You Have Entered Correct Mail")
+      return true;
+  }
+  else{
+      alert("In-Correct Email")
+      return false;
+  }
+}
+        </script>
+    </head>
+    <body>
+        <label class="emaillabel" >Email: </label> 
+               <input type="text" class="emailinp" id="srchospital"placeholder="Enter Your Email">
+               <input type="submit" onclick="validateMail()">
+    </body>
+</html>
